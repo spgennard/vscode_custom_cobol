@@ -1,0 +1,22 @@
+{
+    "name": "mycobol",
+    "displayName": "MyCOBOL",
+    "description": "Custom COBOL Syntax",
+    "version": "0.0.1",
+    "publisher": "bitlang",
+    "engines": {
+        "vscode": "^1.31.0"
+    },
+    "categories": [
+        "Programming Languages"
+    ],
+    "contributes": {
+        "grammars": [
+			{
+                "path": "./syntaxes/cobol.tmLanguage.json",
+                "scopeName": "mycobol.injection",
+				"injectTo": ["source.cobol"]
+			}
+		]
+    }
+}
