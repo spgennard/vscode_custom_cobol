@@ -3,7 +3,7 @@
     "displayName": "MyCOBOL",
     "description": "Custom COBOL Syntax",
     "version": "0.0.1",
-    "publisher": "",
+    "publisher": "unknown",
     "engines": {
         "vscode": "^1.31.0"
     },
